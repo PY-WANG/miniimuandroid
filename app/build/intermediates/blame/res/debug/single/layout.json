@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "D:\\CODE\\miniimuandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\custom_title.xml",
+        "source": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\layout\\custom_title.xml"
+    },
+    {
+        "merged": "D:\\CODE\\miniimuandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\datalist.xml",
+        "source": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\layout\\datalist.xml"
+    },
+    {
+        "merged": "D:\\CODE\\miniimuandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\main.xml",
+        "source": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "D:\\CODE\\miniimuandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_config.xml",
+        "source": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\layout\\fragment_config.xml"
+    },
+    {
+        "merged": "D:\\CODE\\miniimuandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_data.xml",
+        "source": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\layout\\fragment_data.xml"
+    },
+    {
+        "merged": "D:\\CODE\\miniimuandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\message.xml",
+        "source": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\layout\\message.xml"
+    },
+    {
+        "merged": "D:\\CODE\\miniimuandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bottombar.xml",
+        "source": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\layout\\bottombar.xml"
+    },
+    {
+        "merged": "D:\\CODE\\miniimuandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\device_name.xml",
+        "source": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\layout\\device_name.xml"
+    },
+    {
+        "merged": "D:\\CODE\\miniimuandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_us.xml",
+        "source": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\layout\\fragment_us.xml"
+    },
+    {
+        "merged": "D:\\CODE\\miniimuandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\device_list.xml",
+        "source": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\layout\\device_list.xml"
+    }
+]

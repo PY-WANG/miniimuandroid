@@ -1,0 +1,268 @@
+[
+    {
+        "outputFile": "D:\\CODE\\miniimuandroid\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 165,
+                    "endColumn": 46,
+                    "endOffset": 207
+                },
+                "from": {
+                    "file": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 996,
+                        "endColumn": 46,
+                        "endOffset": 1038
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 212,
+                    "endColumn": 45,
+                    "endOffset": 253
+                },
+                "from": {
+                    "file": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 258,
+                    "endColumn": 57,
+                    "endOffset": 311
+                },
+                "from": {
+                    "file": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 316,
+                    "endColumn": 44,
+                    "endOffset": 356
+                },
+                "from": {
+                    "file": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 361,
+                    "endColumn": 40,
+                    "endOffset": 397
+                },
+                "from": {
+                    "file": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 402,
+                    "endColumn": 47,
+                    "endOffset": 445
+                },
+                "from": {
+                    "file": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 450,
+                    "endColumn": 46,
+                    "endOffset": 492
+                },
+                "from": {
+                    "file": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 497,
+                    "endColumn": 44,
+                    "endOffset": 537
+                },
+                "from": {
+                    "file": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 542,
+                    "endColumn": 48,
+                    "endOffset": 586
+                },
+                "from": {
+                    "file": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 591,
+                    "endColumn": 52,
+                    "endOffset": 639
+                },
+                "from": {
+                    "file": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 644,
+                    "endColumn": 44,
+                    "endOffset": 684
+                },
+                "from": {
+                    "file": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 689,
+                    "endColumn": 48,
+                    "endOffset": 733
+                },
+                "from": {
+                    "file": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 738,
+                    "endColumn": 37,
+                    "endOffset": 771
+                },
+                "from": {
+                    "file": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 776,
+                    "endColumn": 52,
+                    "endOffset": 824
+                },
+                "from": {
+                    "file": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 829,
+                    "endColumn": 52,
+                    "endOffset": 877
+                },
+                "from": {
+                    "file": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 882,
+                    "endColumn": 50,
+                    "endOffset": 928
+                },
+                "from": {
+                    "file": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 933,
+                    "endColumn": 56,
+                    "endOffset": 985
+                },
+                "from": {
+                    "file": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 990,
+                    "endColumn": 55,
+                    "endOffset": 1041
+                },
+                "from": {
+                    "file": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1046,
+                    "endColumn": 47,
+                    "endOffset": 1089
+                },
+                "from": {
+                    "file": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\values\\strings.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1094,
+                    "endLine": 24,
+                    "endColumn": 12,
+                    "endOffset": 1172
+                },
+                "from": {
+                    "file": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1177,
+                    "endLine": 27,
+                    "endColumn": 12,
+                    "endOffset": 1244
+                },
+                "from": {
+                    "file": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\values\\styles.xml"
+                }
+            }
+        ]
+    }
+]
