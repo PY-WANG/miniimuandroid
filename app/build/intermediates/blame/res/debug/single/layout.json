@@ -28,6 +28,10 @@
         "source": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\layout\\bottombar.xml"
     },
     {
+        "merged": "D:\\CODE\\miniimuandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_data1.xml",
+        "source": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\layout\\fragment_data1.xml"
+    },
+    {
         "merged": "D:\\CODE\\miniimuandroid\\app\\build\\intermediates\\res\\merged\\debug\\layout\\device_name.xml",
         "source": "D:\\CODE\\miniimuandroid\\app\\src\\main\\res\\layout\\device_name.xml"
     },

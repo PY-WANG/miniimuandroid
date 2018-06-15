@@ -452,8 +452,14 @@ public class BluetoothService {
 	{
 		boolean Repeat=false;
 		short sData=(short) (0x01<<(ID&0x0f));
-		if (((IDNow&sData)==sData)&&(sData<sDataSave)) {IDSave=IDNow;	IDNow=sData;Repeat=true;}		
-		else IDNow|=sData;
+		if (((IDNow&sData)==sData)&&(sData<sDataSave)) {
+			IDSave=IDNow;
+			IDNow=sData;
+			Repeat=true;
+		}
+		else {
+			IDNow |= sData;
+		}
 		sDataSave = sData;
 		switch (SaveState) {
 		case 0:
@@ -476,10 +482,14 @@ public class BluetoothService {
 			if ((IDSave&0x200)>0) s+="   q0：   q1：   q2：   q3：";
 			if ((IDSave&0x400)>0) s+="星数：PDOP： HDOP： VDOP：";
 			myFile.Write(s+"\r\n");
-			if (Repeat)  {myFile.Write(str);SaveState = 2;}
+			if (Repeat)  {
+				myFile.Write(str);
+				SaveState = 2;
+			}
 			break;
 		case 2:
-			if (Repeat) myFile.Write("  \r\n");
+			if (Repeat)
+				myFile.Write("  \r\n");
 			myFile.Write(str);
 			break;
 		case -1:
@@ -490,8 +500,12 @@ public class BluetoothService {
 	}
 	public void setRecord(boolean record)
 	{
-		if (record) SaveState = 1;
-		else SaveState = 0;
+		if (record) {
+			SaveState = 1;
+		}
+		else {
+			SaveState = 0;
+		}
 		
 	}
 }

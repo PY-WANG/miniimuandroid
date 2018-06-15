@@ -62,7 +62,7 @@ public class DataMonitor extends FragmentActivity implements OnClickListener {
     private TextView mTitle;
     private boolean recordStartorStop = false;
 
-    private DataFragment dataFragment;
+    private DataFragment1 dataFragment;
     private UsFragment usFragment;
     private ConfigFragment configFragment;
 
@@ -100,6 +100,16 @@ public class DataMonitor extends FragmentActivity implements OnClickListener {
                         float[] fData = msg.getData().getFloatArray("Data");
                         switch (RunMode) {
                             case 0:
+                                ((TextView) findViewById(R.id.tvNum11)).setText(String.format("% 10.2f°", fData[6]));
+                                ((TextView) findViewById(R.id.tvNum21)).setText(String.format("% 10.2f°", fData[7]));
+                                ((TextView) findViewById(R.id.tvNum31)).setText(String.format("% 10.2f°", fData[8]));
+                                ((TextView) findViewById(R.id.tvNum41)).setText(String.format("% 10.2f°/s", fData[3]));
+                                ((TextView) findViewById(R.id.tvNum51)).setText(String.format("% 10.2f°/s", fData[4]));
+                                ((TextView) findViewById(R.id.tvNum61)).setText(String.format("% 10.2f°/s", fData[5]));
+                                ((TextView) findViewById(R.id.tvNum71)).setText(String.format("% 10.2fg", fData[0]));
+                                ((TextView) findViewById(R.id.tvNum81)).setText(String.format("% 10.2fg", fData[1]));
+                                ((TextView) findViewById(R.id.tvNum91)).setText(String.format("% 10.2fg", fData[2]));
+                                ((TextView) findViewById(R.id.tvNum101)).setText(msg.getData().getString("Time"));
                                 switch (iCurrentGroup) {
                                     case 0:
                                         ((TextView) findViewById(R.id.tvNum1)).setText(msg.getData().getString("Date"));
@@ -251,7 +261,7 @@ public class DataMonitor extends FragmentActivity implements OnClickListener {
         android.support.v4.app.FragmentTransaction transaction = manager.beginTransaction();
 
         if (dataFragment == null) {
-            dataFragment = new DataFragment();
+            dataFragment = new DataFragment1();
             transaction.add(R.id.id_content, dataFragment);
         }
         if (usFragment == null) {
@@ -477,21 +487,21 @@ public class DataMonitor extends FragmentActivity implements OnClickListener {
         if (type == 0) {
             findViewById(R.id.lljy901).setVisibility(View.INVISIBLE);
             findViewById(R.id.lljy61).setVisibility(View.VISIBLE);
-            findViewById(R.id.btnSet).setVisibility(View.INVISIBLE);
-            short sOut = 0x0e;
-            for (int i = 0; i < selected.length; i++) {
-                selected[i] = ((sOut >> i) & 0x01) == 0x01;
-            }
-            RefreshButtonStatus();
-            SharedPreferences mySharedPreferences = getSharedPreferences("Output", Activity.MODE_PRIVATE);
-            SharedPreferences.Editor editor = mySharedPreferences.edit();
-            editor.putString("Out", String.format("%d", sOut));
-            editor.commit();
+            //findViewById(R.id.btnSet).setVisibility(View.INVISIBLE);
+//            short sOut = 0x0e;
+//            for (int i = 0; i < selected.length; i++) {
+//                selected[i] = ((sOut >> i) & 0x01) == 0x01;
+//            }
+//            RefreshButtonStatus();
+//            SharedPreferences mySharedPreferences = getSharedPreferences("Output", Activity.MODE_PRIVATE);
+//            SharedPreferences.Editor editor = mySharedPreferences.edit();
+//            editor.putString("Out", String.format("%d", sOut));
+//            editor.commit();
 
         } else {
             findViewById(R.id.lljy901).setVisibility(View.VISIBLE);
             findViewById(R.id.lljy61).setVisibility(View.INVISIBLE);
-            findViewById(R.id.btnSet).setVisibility(View.VISIBLE);
+            //findViewById(R.id.btnSet).setVisibility(View.VISIBLE);
         }
         SharedPreferences mySharedPreferences = getSharedPreferences("Output", Activity.MODE_PRIVATE);
         SharedPreferences.Editor editor = mySharedPreferences.edit();

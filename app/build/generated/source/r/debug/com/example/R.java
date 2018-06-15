@@ -47,9 +47,9 @@ public final class R {
         public static final int CalGyro=0x7f07001c;
         public static final int CalMag=0x7f070021;
         public static final int IC=0x7f07000d;
-        public static final int Verion=0x7f070043;
-        public static final int add_friend=0x7f070040;
-        public static final int add_friend_shake=0x7f070042;
+        public static final int Verion=0x7f070053;
+        public static final int add_friend=0x7f070050;
+        public static final int add_friend_shake=0x7f070052;
         public static final int btnSet=0x7f07002a;
         public static final int button0=0x7f070033;
         public static final int button1=0x7f070034;
@@ -64,12 +64,12 @@ public final class R {
         public static final int buttonA=0x7f07003d;
         public static final int buttonB=0x7f07003e;
         public static final int button_scan=0x7f07000b;
-        public static final int discoverable=0x7f070048;
-        public static final int id_content=0x7f070046;
+        public static final int discoverable=0x7f070058;
+        public static final int id_content=0x7f070056;
         public static final int id_ly_bottombar=0x7f070000;
         public static final int lljy61=0x7f070026;
         public static final int lljy901=0x7f07000e;
-        public static final int main_linearLayout=0x7f070045;
+        public static final int main_linearLayout=0x7f070055;
         public static final int new_devices=0x7f07000a;
         public static final int paired_devices=0x7f070008;
         public static final int rlHeight=0x7f070013;
@@ -78,7 +78,7 @@ public final class R {
         public static final int rlRST=0x7f070015;
         public static final int rlRate=0x7f070011;
         public static final int rlZero=0x7f070028;
-        public static final int scan=0x7f070047;
+        public static final int scan=0x7f070057;
         public static final int textView=0x7f070029;
         public static final int title=0x7f07000c;
         public static final int title_left_text=0x7f070005;
@@ -92,9 +92,15 @@ public final class R {
         public static final int tvCaliGyro=0x7f07001d;
         public static final int tvCaliMag=0x7f070022;
         public static final int tvDataName1=0x7f07002b;
+        public static final int tvDataName10=0x7f07004d;
         public static final int tvDataName2=0x7f07002d;
         public static final int tvDataName3=0x7f07002f;
         public static final int tvDataName4=0x7f070031;
+        public static final int tvDataName5=0x7f070043;
+        public static final int tvDataName6=0x7f070045;
+        public static final int tvDataName7=0x7f070047;
+        public static final int tvDataName8=0x7f070049;
+        public static final int tvDataName9=0x7f07004b;
         public static final int tvDefault=0x7f070016;
         public static final int tvGyroX=0x7f07001e;
         public static final int tvGyroY=0x7f07001f;
@@ -104,14 +110,24 @@ public final class R {
         public static final int tvMagY=0x7f070024;
         public static final int tvMagZ=0x7f070025;
         public static final int tvNum1=0x7f07002c;
+        public static final int tvNum101=0x7f07004e;
+        public static final int tvNum11=0x7f07003f;
         public static final int tvNum2=0x7f07002e;
+        public static final int tvNum21=0x7f070040;
         public static final int tvNum3=0x7f070030;
+        public static final int tvNum31=0x7f070041;
         public static final int tvNum4=0x7f070032;
+        public static final int tvNum41=0x7f070042;
+        public static final int tvNum51=0x7f070044;
+        public static final int tvNum61=0x7f070046;
+        public static final int tvNum71=0x7f070048;
+        public static final int tvNum81=0x7f07004a;
+        public static final int tvNum91=0x7f07004c;
         public static final int tvOut=0x7f070010;
         public static final int tvRate=0x7f070012;
-        public static final int tvVersion=0x7f070044;
-        public static final int urlEM=0x7f070041;
-        public static final int urlJYZK=0x7f07003f;
+        public static final int tvVersion=0x7f070054;
+        public static final int urlEM=0x7f070051;
+        public static final int urlJYZK=0x7f07004f;
     }
     public static final class layout {
         public static final int bottombar=0x7f030000;
@@ -121,9 +137,10 @@ public final class R {
         public static final int device_name=0x7f030004;
         public static final int fragment_config=0x7f030005;
         public static final int fragment_data=0x7f030006;
-        public static final int fragment_us=0x7f030007;
-        public static final int main=0x7f030008;
-        public static final int message=0x7f030009;
+        public static final int fragment_data1=0x7f030007;
+        public static final int fragment_us=0x7f030008;
+        public static final int main=0x7f030009;
+        public static final int message=0x7f03000a;
     }
     public static final class menu {
         public static final int option_menu=0x7f060000;
